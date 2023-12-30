@@ -25,6 +25,6 @@ class MiniMap {
       }
       this.ctx.restore();
       new Point(this.size / 2, this.size / 2)
-         .draw(this.ctx { color:
+         .draw(this.ctx, { color: "blue", outline: true });
    }
 }
